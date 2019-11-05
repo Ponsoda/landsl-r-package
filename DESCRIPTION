@@ -1,0 +1,23 @@
+Package: landsl
+Version: 0.1.0
+Type: Package
+Title: Determining landslide probability
+Description: This package contains different functions which final goal 
+              is to determine the landslide danger in an specific area.    
+              The package is taking elevation, aspect and slope as the main
+              elements to calculate the probability by using INLA package.    
+              Then this point probability is used to make a raster calculation.
+    (Use four spaces when indenting paragraphs within the Description.)
+Authors@R: person("Ignacio", "Ponsoda Llorens", , "iponsoda@uni-muenster.de", c("aut", "cre"))
+Depends: R (>= 2.10), raster , sp, INLA, pROC
+License: GPL-2
+LazyData: true
+Imports: methods
+Suggests: knitr, rmarkdown, rgdal
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+NeedsCompilation: no
+Author: Ignacio Ponsoda Llorens [aut, cre]
+Maintainer: Ignacio Ponsoda Llorens <iponsoda@uni-muenster.de>
+Packaged: 2019-08-02 13:52:02 UTC; na-ch
